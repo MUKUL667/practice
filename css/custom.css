@@ -13,9 +13,127 @@ body
 {
     font-family: 'Poppins', sans-serif;
 }
+/* ###############################utility-class################## */
+.container
+{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.btn
+{
+    display: inline-block;
+    padding:1em 2.5em;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    outline: none;
+    margin-top: 2em;
+
+
+}
+
 /* ########################nabar-styling####################### */
 .navbar input[type="checkbox"],
 .navbar .humburger-lines
 {
     display:none;
+}
+.navbar
+{
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+
+}
+.navbar-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+}
+.menu-items
+{
+    display: flex;
+}
+.menu-items li{
+    list-style: none;
+    font-size: 1.5rem;
+    margin-left:  1.5rem;
+}
+.logo
+{
+    font-size: 3rem;
+}
+ .menu-items a{
+    font-size: 1.5rem;
+    color: navy;
+ }
+ /* ##############################banner#######################3 */
+ .showcase
+{
+    height: 90vh;
+    
+}
+.showcase-conatiner 
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+height: 100%;
+
+}
+
+.showcase-conatiner h1
+{
+    font-size: 4rem;
+    color: rgb(66, 66, 116);
+}
+.showcase-conatiner p
+{
+    color: grey;
+    margin-top: 20px;
+}
+.banner-image
+{
+    flex:1 1 500px;
+    padding: 80px;
+    margin-top: 50px;
+}
+.banner-image img
+{ 
+    display: block;
+    max-width: 100%;
+   height: 500px;
+}
+.banner-text
+{
+    flex:1 1 500px;
+    padding: 130px;
+    margin-top: 50px;
+}
+.buttons
+{
+    display: flex;
+    
+  
+}
+.btn-red{
+    color: #FFF;
+    background-color: rgb(224, 78, 78);
+}
+.btn-white
+{
+    color:rgb(66, 66, 116);
+    background-color: rgb(255, 251, 251);
+    border-radius: none;
+    margin-left: 10px;
 }
