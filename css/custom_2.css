@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*,*::after,*::before
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 63.5%;
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+/* ###############################utility-class################## */
+.container
+{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.btn
+{
+    display: inline-block;
+    padding:1em 2.5em;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    outline: none;
+    margin-top: 2em;
+
+
+}
+.btnwhite
+{
+    border: 2px solid #FFF;
+}
+/* ############################header-style################################ */
+/* .navbar-nav,.nav-item.navbar-light .navbar-nav .navbar-brand .navbar-light .navbar-brand{
+color: #fff !important;
+
+} */
+.header
+{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.header-conatiner
+{
+    height: 65px;
+    background-color: black;
+}
+.axitnavbar
+{
+    margin:8px 0;
+}
+.nav-item
+{
+list-style: none;
+font-size: 1.5rem;
+margin-left: 1.5rem;
+
+}
+.nav-link  
+{
+    color: aliceblue !important ;
+}
+/* ###########################banner-styling############################ */
+.banner
+{
+    background-image: linear-gradient(rgb(0, 0, 0,0.5215686274509804),rgba(7, 0, 0, 0.507)),url('/images/image.png');
+    height: 70vh;
+ 
+    padding: 50px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+ 
+}
+.banner_content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 50px;
+    margin: auto;
+  
+   
+   
+}
+.banner_content .second
+{
+color: #f26f0f;
+font-weight: 300;
+
+}
+.banner_content .first
+{
+color: #FFF;
+
+}
+.banner_content h1
+{
+    font-size: 6rem;
+}
+.banner_content h2 {
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 300;
+}
+.banner_content p {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 300;
+
+}
+#para_banner
+{
+    padding: 0 165px;
+}
+.btnwhite p{
+    margin: 5px 25px;
+    color: #FFF;
+}
+.social
+{
+    background-color:rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px solid black;
+    padding: 10px 200px;
+
+}
+.feature1
+{
+    display: flex;
+    background-color: rgba(245, 245, 245, 1);
+}
+.social_text p
+{
+    color: #86878B;
+   
+}
