@@ -835,4 +835,58 @@ width: 75%;
     justify-content: center;
 }
 }
+/* #############for small screen############# */
+@media (max-width:500px)
+{
+    html{
+        font-size:50%
+    }
+    .banner-container
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
 
+    }
+    .social-container 
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .social_text
+    {
+        width:100% !important;
+        display: flex !important;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .social-container 
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.social_text 
+{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.social_image
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.flex-direction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+}
