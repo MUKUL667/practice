@@ -180,6 +180,7 @@ color: #FFF;
    padding: 50px 0;
    justify-content: center;
    align-items: center;
+   padding: 50px 100px;
    
 }
 .box
@@ -218,14 +219,31 @@ color: #FFF;
 {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
-    box-sizing: border-box;
+  
+    padding: 0 82px;
+ 
 
 }
 .mid_col_head p
 {
-font-size: 700;
+font-weight: 700;
+font-size: 1.4rem;
+}
+.mid_col_content
+{
 
+color: #86878B;
+
+margin: 15px 0;
+}
+.right_image
+{
+    width: 240px;
+}
+.btn_width
+{
+    width: 100px;
+    margin: 25px 0;
 }
 .right_image img{
     width: 100%;
@@ -595,4 +613,22 @@ color: #86878B;
     color: #FFF;
     margin: 5px 0;
 
+}
+
+/* ####################FORM#################### */
+.form_1
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 120px;
+}
+input
+{
+    margin: 10px !important;
+}
+textarea
+{
+    width: 70%;
+    margin: 10px !important;
 }
