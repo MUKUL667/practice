@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins,raleway-regular:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins,raleway-regular,Raleway,opensans-bold:wght@100;200;300;400;500;600;700&display=swap');
 
 *,*::after,*::before
 {
@@ -13,6 +13,7 @@ body
 {
     font-family: 'Poppins', sans-serif;
 }
+
 /* ###############################utility-class################## */
 .container
 {
@@ -408,6 +409,42 @@ color: #86878B;
     padding: 50px 50px;
   
 }
+.card_head_last
+{
+    padding: 2px 0;
+    border-bottom: 2px solid #f26f0f;
+}
+.orange_border
+{
+    background-color: #f26f0f;
+    color: #FFF;
+    font-family: opensans-bold;
+    padding: 5px 5px;
+}
+.orange_border p{
+    margin-bottom: 0;
+}
+.card_2
+{
+z-index: 99;
+padding: 0 10px;
+}
+.card_3 
+{
+z-index: 90;
+margin-top: 10px;
+}
+.card_1
+{
+    z-index: 90;
+    margin-top: 10px;
+}
+.card_head p
+{
+padding: 10px 5px;
+margin-bottom: 0;
+}
+
 .cards
 {
     background-color: #2c2d30;
@@ -436,6 +473,7 @@ color: #86878B;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 15px 5px;
     
 }
 .feature_cont li
@@ -453,22 +491,26 @@ color: #86878B;
 {
     display: flex;
     justify-content: space-evenly;
+    margin: 25px 0;
+    padding: 0 65px;
 
 }
 .test_content
 {
-    background-color: #86878B;
-    padding: 5px 5px;
+    background-color: #cdcfd6;
+    color: #86878B;
+    padding: 15px 15px;
 }
 .test_image_content
 {
     display: flex;
-    
+    margin: 10px 5px;
     
 }
 .testimage
 {
     width: 30px;
+    margin: 2px 5px;
 
 }
 .testimage img{
@@ -476,26 +518,81 @@ color: #86878B;
 }
 .testinomial_cards
 {
-    margin: 0 5px;
+    margin: 0 40px;
 }
-.custom
+.cont p
+{
+color: #86878B;
+}
+#CUSTOM
 {
     background-image: url("/images/custom.png");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
     margin-top: 100px;
     padding: 50px 50px;
     
 }
+.custom_sub1
+{
+    color: rgb(7, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.custom_sub1 h2{
+ 
+    font-family: raleway-regular;
+    font-size: 2.3rem;
+
+}
+
+/* ##########################conatact##################### */
+.conatact
+{
+    margin-top: 100px;
+}
+.contact_heading
+{
+    font-family: raleway;
+    font-weight: 300;
+
+}
 /* footer */
 .footer
 {
-    background-color: #32343d;
+    background-color: #000000;
 }
+
+.footer_conatainer
+{
+    margin-top: 100px;
+    padding: 0 5px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
 .footer_image 
 {
-    width: 90%;
+    width: 25%;
+    padding: 5px 0;
     
 }
 .footer_image img{
     width: 100%;
+}
+.footer_text
+{
+    color: #FFF;
+    margin: 5px 0;
+
 }
