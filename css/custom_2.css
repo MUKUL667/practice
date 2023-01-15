@@ -154,7 +154,7 @@ color: #FFF;
     height: 100px;
    
     width: 100%;
-    border: 2px solid black;
+    
     padding: 10px 200px;
 
 }
@@ -631,4 +631,13 @@ textarea
 {
     width: 70%;
     margin: 10px !important;
+}
+
+/* ###############################media-query################### */
+@media(max-width:768px)
+{
+    .navbar
+    {
+        
+    }
 }
