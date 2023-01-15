@@ -836,7 +836,7 @@ width: 75%;
 }
 }
 /* #############for small screen############# */
-@media (max-width:500px)
+@media (max-width:430px)
 {
     html{
         font-size:50%
@@ -882,11 +882,17 @@ width: 75%;
     display: flex;
     justify-content: center;
 }
-.flex-direction{
+
+#feature_container
+{
+    flex-direction: column;
+    align-items: stretch;
+}
+.boxes
+{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    
 }
 
 }
