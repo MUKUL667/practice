@@ -668,8 +668,8 @@ textarea
         {
             
             display: block;
-             height: 30px;  
-             width: 40px; 
+             height: 35px;  
+             width: 50px; 
              position: absolute; 
              padding:1px;
              top: 15px;
@@ -682,13 +682,13 @@ textarea
     
 
     .hamburger .line{
-        width: 35px;
+        width: 40px;
         height: 1px;
         font-weight: 400;
         color: #FFF;
         background-color: #f26f0f;
         display: block;
-        margin: 4.5px auto;
+        margin: 3px auto;
         -webkit-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
