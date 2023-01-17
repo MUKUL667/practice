@@ -673,8 +673,7 @@ textarea
              position: absolute; 
              top: 15px;
             right: 20px;
-             z-index: 5; 
-            
+             z-index: 5;   
               display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -688,7 +687,7 @@ textarea
         color: #FFF;
         background-color: #f26f0f;
         display: block;
-        margin: 1px auto;
+        margin: 0.5px auto;
         -webkit-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
