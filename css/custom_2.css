@@ -386,7 +386,11 @@ color: #86878B;
 }
 .process_sub1 h2{
     font-family: raleway-regular;
-    font-size: 2.7rem;
+    font-size: 2.3rem;
+}
+.process_sublast1 h2 {
+    font-family: raleway-regular;
+    font-size: 1.6rem !important;
 }
 .process_sub1 p{
     color:#86878B
