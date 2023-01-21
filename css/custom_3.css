@@ -83,7 +83,7 @@ header-section
 
 .swiper {
  
-    height: 80vh;
+    height: 90vh;
     z-index: 1000;
 
   }
@@ -155,7 +155,7 @@ header-section
 }
  
  .nav-link {
-  font-size: 1.3rem !important;
+  font-size: 1rem !important;
 }
   .navbar-brand
   {
@@ -365,9 +365,9 @@ footer
 ======= */
 #footer
 {
-  background-color: black;
-  background-position: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('/assets/img/footer-bg.jpg');
   background-size: cover;
+  background-position: center;
   padding-top: 50px 0 !important;
   color: #FFF;
 }
@@ -375,12 +375,17 @@ footer
 {
   padding: 50px 0;
 }
+.social_links
+{
+  display: flex;
+  justify-content: flex-start;
+}
 .social_links ul 
 {
   display: inline-flex;
   justify-content: flex-start;
   align-items: center;
-  margin: 10px !important;
+
 
 }
 .social_links ul  li
@@ -391,7 +396,7 @@ margin: 0 10px;
 {
   display: flex !important;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start !important;
 
 }
 .common_footer 
@@ -400,7 +405,7 @@ margin: 0 10px;
 }
 .common_footer  p
 {
-  margin: 0 !important;
+  margin: auto!important;
  
  
 
@@ -417,4 +422,34 @@ margin: 0 10px;
   line-height: 30px;
   padding: 0 !important;
   margin: 0 !important;
+}
+.tabs_2 .head
+{
+ padding-right: 30px !important;
+}
+.footer_icon
+{
+  background-color: rgba(250, 249, 249, 0.822);
+  position: relative;
+  width: 40px;
+  height: 40px;
+  opacity: 0.4;
+  z-index: 99;
+  margin: 10x !important;
+}
+.footer_icon i
+{
+position: absolute;
+z-index: 1000000 !important;
+color: rgb(255, 255, 255) !important;
+opacity: 1;
+top: 7px !important;
+right: 10px;
+font-size: 25px;
+font-weight: 500;
+}
+.footer_icon :hover
+{
+  transition: all 0.5ms ease-in-out;
+  color: #f6fa00 !important; 
 }
