@@ -124,6 +124,7 @@ header-section
     color:#FFF;
     background-color:  rgba(255, 255, 255, 0.185);
     border-radius:90%;
+    z-index: 1000;
      width: 55px;
     height: 55px;
 
@@ -174,6 +175,11 @@ header-section
   /* =================
   Contract-section
 ====================== */
+.card_padding
+{
+  padding: 25px 25px;
+  min-height:600px;
+}
 #contract_section
 {
     background-color: rgba(230, 230, 230, 0.918) !important;
@@ -195,24 +201,36 @@ header-section
 {
   display: flex;
   margin: auto;
-
+text-align: center;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
 }
+.constrution_heading p{
+  padding: 0 25px;
+}
+
 .bg_image
 {
-  min-height: 300px;
+  min-height: 330px;
   max-width: 100%;
   background-size: cover;
   background-position: center;
 }
-.card_content img
+.card_content
 {
- max-width: 100%;
- min-height: 200px;
-  
+    display:flex ;
+    justify-content:center ;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+.card-img
+{
+  min-height: 330px;
+  max-width: 100%;
 }
 .service_cards
 {
@@ -224,4 +242,28 @@ header-section
 {
   display: flex;
   
+}
+.card_content,.card_body
+{
+  padding: 2rem 2rem !important;
+}
+/* ===========================
+services
+========================== */
+#services
+{
+  background-color: rgba(230, 230, 230, 0.918) !important;
+}
+.service_container
+{
+  padding: 50px 0 !important;
+}
+.service_card
+{
+  padding: 25px 25px !important;
+}
+.font_icon
+{
+  font-size: 40px !important;
+  padding-left: 20px !important;
 }
