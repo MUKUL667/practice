@@ -12,7 +12,10 @@ a:hover{
   color: #FFF !important;
 }
 
-
+p{
+  margin: 0;
+  padding: 0;
+}
 ul,ol{
     margin: 0;
     padding: 0;
@@ -367,7 +370,7 @@ footer
 {
   background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('/assets/img/footer-bg.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: revert;
   padding-top: 50px 0 !important;
   color: #FFF;
 }
@@ -387,6 +390,9 @@ footer
   align-items: center;
 
 
+}
+.social_links ul{
+  padding: 0 !important;
 }
 .social_links ul  li
 {
@@ -453,3 +459,12 @@ font-weight: 500;
   transition: all 0.5ms ease-in-out;
   color: #f6fa00 !important; 
 }
+.copy_right
+{
+  margin-top: 25px;
+  text-align: center;
+}
+.copy_right p
+{
+  margin-bottom: 0 !important;
+} 
