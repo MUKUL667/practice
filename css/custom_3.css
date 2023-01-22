@@ -420,16 +420,52 @@ testinomial
 #testinomial
 {
   padding: 50px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
   background-color:  rgba(230, 230, 230, 0.918) !important;
 }
+.swiper-slide
+{
+  text-align: start !important;
+  
+}
 
+.test_image img{
+  max-width: 60px;
+  position: absolute !important;
+  object-fit: contain;
+  left: -45px;
+  bottom: 45px;
+
+}
+.review-box
+{
+  position: relative;
+}
+
+.media
+{ 
+  display: flex;
+  flex-direction: column;
+}
+.user-post
+{
+  font-size: 15px;
+  color: gray;
+}
+.read
+{
+  padding: 20px 0 !important;
+}
 .test_content
 {
 padding: 25px 0 !important;
 }
 .review-box{
   background-color: #FFF !important;
-  margin: auto;
+  padding: 50px 25px;
 }
 
 /* ======

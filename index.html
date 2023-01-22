@@ -618,72 +618,102 @@
         <div class="test_content">
           <div class="swiper-container swiper-testimonial">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="review-box">
-                        <div class="media">
-                            <!-- <img class="mr-3" src="https://picsum.photos/50/50" alt="Generic placeholder image"> -->
-                            <div class="media-body">
-                                <h5>Amanda Jackson</h5>
-                                <p class="user-post">CEO, NRD Group</p>
-                            </div>
-                        </div>
-                        <p class="read">
-                            It has survived not only five centuries, but also the leap into electronic typesetting,
-                            remaining essentially unchanged. It was popularised in the 1960s with the race.
-                        </p>
-                        <!-- <img class="quote" src="img/icons/quote.svg" alt=""> -->
-
+              <div class="swiper-slide">
+                
+              <div class="review-box">
+                <div class="test_image"><img src="/assets/img/testimonials/testimonials-1.jpg"> </div>
+                  <div class="media">
+                   
+                    
+                      <!-- <img class="mr-3" src="https://picsum.photos/50/50/" alt="Generic placeholder image"> -->
+                      <div class="media-body">
+                          <h5>Amanda Jackson</h5>
+                          <p class="user-post">CEO, NRD Group</p>
+                 
                     </div>
-                </div>
-                <div class="swiper-slide">
+                  </div>
+                  <p class="read">
+                    <i class="fa-solid fa-quote-left fa-1x fa-pull-left"></i>
+                      It has survived not only five centuries, but also the leap into electronic typesetting,
+                      remaining essentially unchanged. It was popularised in the 1960s with the race.
+                      <i class="fa-solid fa-quote-right fa-1x fa-pull-right"></i>
+                  </p>
+                  <!-- <img class="quote" src="img/icons/quote.svg" alt=""> -->
+
+              </div>
+          </div>
+          <div class="swiper-slide">
+                
                     <div class="review-box">
+                      <div class="test_image"><img src="/assets/img/testimonials/testimonials-2.jpg"> </div>
                         <div class="media">
+                         
+                          
                             <!-- <img class="mr-3" src="https://picsum.photos/50/50/" alt="Generic placeholder image"> -->
                             <div class="media-body">
                                 <h5>Amanda Jackson</h5>
                                 <p class="user-post">CEO, NRD Group</p>
-                            </div>
+                       
+                          </div>
                         </div>
                         <p class="read">
+                          <i class="fa-solid fa-quote-left fa-1x fa-pull-left"></i>
                             It has survived not only five centuries, but also the leap into electronic typesetting,
                             remaining essentially unchanged. It was popularised in the 1960s with the race.
-                        </p>
-                        <!-- <img class="quote" src="img/icons/quote.svg" alt=""> -->
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="review-box">
-                        <div class="media">
-                            <!-- <img class="mr-3" src="https://picsum.photos/50/50" alt="Generic placeholder image"> -->
-                            <div class="media-body">
-                                <h5>Amanda Jackson</h5>
-                                <p class="user-post">CEO, NRD Group</p>
-                            </div>
-                        </div>
-                        <p class="read">
-                            It has survived not only five centuries, but also the leap into electronic typesetting,
-                            remaining essentially unchanged. It was popularised in the 1960s with the race.
+                            <i class="fa-solid fa-quote-right fa-1x fa-pull-right"></i>
                         </p>
                         <!-- <img class="quote" src="img/icons/quote.svg" alt=""> -->
 
                     </div>
                 </div>
                 <div class="swiper-slide">
+                
                     <div class="review-box">
+                      <div class="test_image"><img src="/assets/img/testimonials/testimonials-3.jpg"> </div>
                         <div class="media">
-                            <!-- <img class="mr-3" src="img/icons/user.png" alt="Generic placeholder image"> -->
+                         
+                          
+                            <!-- <img class="mr-3" src="https://picsum.photos/50/50/" alt="Generic placeholder image"> -->
                             <div class="media-body">
                                 <h5>Amanda Jackson</h5>
                                 <p class="user-post">CEO, NRD Group</p>
-                            </div>
+                       
+                          </div>
                         </div>
                         <p class="read">
+                          <i class="fa-solid fa-quote-left fa-1x fa-pull-left"></i>
                             It has survived not only five centuries, but also the leap into electronic typesetting,
                             remaining essentially unchanged. It was popularised in the 1960s with the race.
+                            <i class="fa-solid fa-quote-right fa-1x fa-pull-right"></i>
                         </p>
                         <!-- <img class="quote" src="img/icons/quote.svg" alt=""> -->
+
                     </div>
                 </div>
+                <div class="swiper-slide">
+                
+                <div class="review-box">
+                  <div class="test_image"><img src="/assets/img/testimonials/testimonials-4.jpg"> </div>
+                    <div class="media">
+                     
+                      
+                        <!-- <img class="mr-3" src="https://picsum.photos/50/50/" alt="Generic placeholder image"> -->
+                        <div class="media-body">
+                            <h5>Amanda Jackson</h5>
+                            <p class="user-post">CEO, NRD Group</p>
+                   
+                      </div>
+                    </div>
+                    <p class="read">
+                      <i class="fa-solid fa-quote-left fa-1x fa-pull-left"></i>
+                        It has survived not only five centuries, but also the leap into electronic typesetting,
+                        remaining essentially unchanged. It was popularised in the 1960s with the race.
+                        <i class="fa-solid fa-quote-right fa-1x fa-pull-right"></i>
+                    </p>
+                    <!-- <img class="quote" src="img/icons/quote.svg" alt=""> -->
+
+                </div>
+            </div>
             </div>
             <!-- Add Pagination -->
             <div class="swiper-pagination"></div>
@@ -911,7 +941,7 @@
         spaceBetween: 30,
         loop: true,
         autoplay: {
-        delay: 2500,
+        delay: 2000,
         disableOnInteraction: false,
       },
         navigation: {
@@ -923,17 +953,17 @@
     e.preventDefault()
     $(this).tab('show')
 })
-var swiper = new Swiper('.swiper-container.swiper-testimonial', {
+var data = new Swiper('.swiper-container', {
     slidesPerView: 2,
-    spaceBetween: 30,
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
+    spaceBetween: 150,
+    loop: true,
+    delay: 2000,
+    disableOnInteraction: false,
     navigation: {
-        nextEl: '.swiper-button-next-test',
-        prevEl: '.swiper-button-prev-test',
-    },
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+  
 });
     </script>
     
