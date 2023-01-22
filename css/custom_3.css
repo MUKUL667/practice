@@ -260,17 +260,22 @@ text-align: center;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
-    padding: 10px 20px;
+    padding: 5px 15px;
 }
 .card-img
 {
-  min-height: 330px;
-  max-width: 100%;
+  height: -webkit-fill-available;
+  width: 100%;
+}
+.costruction_cards
+{
+  padding: 25px 0 !important; 
 }
 .service_cards
 {
     display: flex;
     justify-content: center;
+    padding: 25px 0 !important;
 
 }
 .cards_show
@@ -280,7 +285,7 @@ text-align: center;
 }
 .card_content,.card_body
 {
-  padding: 2rem 2rem !important;
+  padding: 1rem 2rem !important;
 }
 /* ===========================
 services
@@ -426,6 +431,7 @@ testinomial
   flex-wrap: wrap;
   background-color:  rgba(230, 230, 230, 0.918) !important;
 }
+
 .swiper-slide
 {
   text-align: start !important;
