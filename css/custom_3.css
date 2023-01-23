@@ -605,3 +605,134 @@ color : #f6fa00 !important;
 {
   margin-bottom: 0 !important;
 } 
+
+
+/* =================
+about
+==================== */
+.about_section 
+{
+
+background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('/assets/img/breadcrumbs-bg.jpg'); 
+width:100%;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 50vh;
+position: relative;
+
+}
+.aboutbanner_haeding
+{
+  position: absolute;
+  top: 150px!important;
+  right:580px !important;
+}
+.aboutbanner_haeding h1
+{
+  font-size: 3.5rem !important;
+}
+.story_conatainer
+{
+  padding: 50px 0;
+}
+.custom_story
+{
+  position: relative !important;
+}
+.story_image 
+{
+  right: 117px;
+  position: absolute;
+width: 500px !important;
+  
+}
+
+
+.story_image img
+{
+width: 100% !important;
+min-height: 500px !important;
+}
+.our_story
+{
+  background-color: rgba(240, 240, 240, 0.712) !important;
+  padding: 25px;
+  width: 700px !important;
+  padding-right: 200px !important;
+}
+
+.est_date
+{
+  font-size: 16px !important;
+  padding: 5px 0;
+}
+.about_point ul li
+{
+  line-height: 40px ;
+}
+.about_point ul li::before
+{
+ 
+  font-family: "FontAwesome";
+ 	content: "\f058" !important;
+  color: var(--global-yellow);
+  height: 100px !important;
+  width: 100px !important;
+  margin-right: 2px !important;
+}
+.play a
+{
+  color: #f6fa00;
+  width: 500PX;
+}
+.play::before
+{
+  font-family: "FontAwesome";
+ 	content: "\f144" !important;
+  color: var(--global-yellow);
+  margin: 10px 0 !important;
+margin-right: 3px !important;
+
+}
+/* counting */
+.counting_projects{
+  background-color: rgba(240, 240, 240, 0.712) !important;;
+  margin: 50px 0;
+}
+.custon_card
+{
+  padding: 25px!important;
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+ 
+}
+.single
+{
+  width: 300px;
+  margin-right: 5px !important;
+  height: 150px;
+  background-color: #FFF;
+}
+.single i::before
+{
+  content: "\f118";
+  font-family: "FontAwesome";
+  font-size: 60px !important;
+  color: #f6fa00;
+}
+.content
+{
+  padding: 50px !important;
+}
+.content_image img
+{
+width: 100% !important;
+border-radius: 100% !important;
+}
+.team_contetnt
+{
+  text-align: center;
+  margin: 5px !important;
+}
