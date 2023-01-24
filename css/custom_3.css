@@ -86,7 +86,7 @@ header-section
 
 .banner_section.swiper {
  
-    height: 90vh;
+    height: 70vh;
     z-index: 1000;
 
   }
@@ -122,7 +122,7 @@ header-section
     margin-left: auto;
     margin-right: auto;
   }
-  .banner_section.swiper-button-prev,.swiper-button-next
+  .banner_section .swiper-button-prev,.swiper-button-next
   {
     color:#FFF;
     background-color:  rgba(255, 255, 255, 0.185);
@@ -130,7 +130,7 @@ header-section
     z-index: 1000;
      width: 55px;
     height: 55px;
-
+    cursor: pointer !important;
  
     
   }
@@ -138,7 +138,7 @@ header-section
     content: '';
     display: block;
     width: 100%;
-    height: 90vh;
+    height: 100%;
     background: -moz-linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.24),rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7));
     background: -webkit-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7));
     background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7));
@@ -443,14 +443,19 @@ testinomial
   position: absolute !important;
   object-fit: contain;
   left: -45px;
-  bottom: 45px;
+  bottom: 150px !important;
 
 }
 .review-box
 {
   position: relative;
+  width: 450px !important;
+  margin: 0 70px !important;
 }
-
+.project_content
+{
+  padding: 50px 0;
+}
 .media
 { 
   display: flex;
@@ -492,7 +497,7 @@ padding: 25px 0 !important;
 }
 .review-box{
   background-color: #FFF !important;
-  padding: 50px 25px;
+  padding: 25px 25px !important;
 }
 
 /* ======
