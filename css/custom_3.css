@@ -863,3 +863,90 @@ border-radius: 100% !important;
   text-align: center;
   margin-top: 20px !important;
 }
+/* service page */
+.servicebanner_heading
+{
+  position: absolute;
+  top: 150px!important;
+  right:560px !important;
+}
+.sevice_section_1
+{
+  padding: 50px 0 !important;
+  background-color: rgb(236, 236, 236) !important;
+}
+.servive_vale
+{
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap !important;
+}
+.service_list
+{
+  padding-left:14px !important;
+  font-size: 15px !important;
+  font-weight: 300 !important;
+}
+.service_list i::before
+{
+  content: "\f00c";
+  position: absolute;
+  color: #e6a10f !important;
+  right: 289px !important;
+  padding: 8px !important;
+  padding-left: 20px !important;
+}
+.service_feature
+{
+  padding: 50px 30px !important;
+}
+.content_service
+{
+  position: relative;
+  padding-right: 40px!important;
+}
+/* conatct */
+.conatct_conatiner
+{
+  padding: 50px 0 !important;
+}
+.conatct_content
+{
+  display: flex !important;
+}
+.adress_card
+{
+background-color: #FFF;
+box-shadow:0px 2px 30px rgba(0, 0, 0, 0.144);
+padding: 25px 25px !important;
+display: flex !important;
+flex-direction: column;
+text-align: center;
+
+
+}
+.fa-map:before
+{
+  color: #e6a10f;
+  border:2px dotted  #e6a10f !important;
+  font-size: 30px !important;
+  border-radius: 50px;
+  padding: 10px !important;
+
+}
+.address_content
+{
+  display: flex !important;
+  flex-direction: column !important;
+}
+.map_conatct iframe{
+  margin-top: 25px;
+  border:2px solid #FFF;
+  width: 100%;
+  height: 500px !important;
+}
+.others
+{
+  padding: 0 10px !important ;
+}
