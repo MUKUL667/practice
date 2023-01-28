@@ -98,6 +98,7 @@ margin-left: 1.5rem;
     background-repeat: no-repeat;
  
 }
+
 .banner_content
 {
     display: flex;
@@ -107,7 +108,8 @@ margin-left: 1.5rem;
     height: 100%;
     padding-top: 50px;
     margin: auto;
-  
+    position: absolute;
+    z-index: 100 !important;
    
    
 }
