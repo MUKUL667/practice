@@ -173,6 +173,7 @@ header-section
 .item_1
 {
   background-image: url('/assets/img/hero-carousel/hero-carousel-1.jpg') !important;
+  max-width: 100% !important;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -288,6 +289,38 @@ header-section
 {
     background-color: rgba(230, 230, 230, 0.918) !important;
 }
+.card_img_1
+{
+  background-image: url('/assets/img/constructions-1.jpg');
+  background-position: center;
+  min-height: 300px;
+  background-size: cover;
+  
+}
+.card_img_2
+{
+  background-image: url('/assets/img/constructions-2.jpg');
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  
+}
+.card_img_3
+{
+  background-image: url('/assets/img/constructions-3.jpg');
+  background-position: center;
+  min-height: 300px;
+  background-size: cover;
+  
+}
+.card_img_4
+{
+  background-image: url('/assets/img/constructions-4.jpg');
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  
+}
 .contract_conatiner
 {
     padding: 50px 0;
@@ -344,7 +377,7 @@ text-align: center;
 {
     display: flex;
     justify-content: center;
-    padding: 25px 0 !important;
+    padding: 25px 5px  !important;
 
 }
 .cards_show
@@ -352,10 +385,7 @@ text-align: center;
   display: flex;
   
 }
-.card_content,.card_body
-{
-  padding: 1rem 2rem !important;
-}
+
 /* ===========================
 services
 ========================== */
