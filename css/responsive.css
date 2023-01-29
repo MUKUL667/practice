@@ -91,6 +91,13 @@ font-size:40px !important;
 {
     left:130px !important;
 }
-
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    background: #7a7b80;
+    padding: 20px;
+    margin-top: 18px;
+  }
 
 }
