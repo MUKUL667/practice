@@ -600,10 +600,10 @@ product
   padding:50px 0 !important; 
 }
 
-.project_content
+/* .project_content
 {
   padding: 25px 0;
-}
+} */
 .project_heading
 {
   text-align: center !important;
@@ -643,10 +643,10 @@ testinomial
   width: 450px !important;
   margin: 0 70px !important;
 }
-.project_content
+/* .project_content
 {
   padding: 50px 0;
-}
+} */
 .media
 { 
   display: flex;
@@ -791,6 +791,10 @@ footer
 {
 font-size: 25px;
 font-weight: 500;
+}
+.footer_content .social_links a
+{
+  color:#fff !important;
 }
 /* .footer_icon:hover
 {

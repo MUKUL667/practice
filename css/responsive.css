@@ -18,7 +18,7 @@
     }
     .common_process
     {
-        order: 2 !important;
+        margin:25px 0 !important;
     }
 
 .custom_tab li a
@@ -37,17 +37,26 @@
 }
 .test_image img
 {
-    position: fixed !important;
+
     max-width:90px !important;
-  left: 0 !important;
-  bottom: 0 !important;
+  left: 21px !important;
+  top: 4px !important;
  
 }
+.media
+{
+margin-top: 70px !important;
+}
+
 .review-box
 {
     position: static !important;
     width: 100% !important;
     margin: 0 !important;
 
+}
+.project_content
+{
+    margin-top:10px !important;
 }
 }
