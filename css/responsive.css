@@ -108,13 +108,13 @@ font-size:40px !important;
 {
     
     display: block;
-     height: 35px;  
+     height: 20px !important;  
      width: 50px; 
      position: absolute; 
      padding:1px;
-     top: 15px;
-    right: 20px;
      z-index: 5;   
+     top: 10px;
+    right: 10px;
       display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -146,7 +146,7 @@ cursor: pointer;
   -webkit-transform: translateY(13px) rotate(45deg);
   -ms-transform: translateY(13px) rotate(45deg);
   -o-transform: translateY(13px) rotate(45deg);
-  transform: translateY(13px) rotate(45deg);
+  transform: translateY(-1px) rotate(45deg);
 }
 
 #hamburger-1.is-active .line:nth-child(3){
@@ -154,5 +154,8 @@ cursor: pointer;
   -ms-transform: translateY(-13px) rotate(-45deg);
   -o-transform: translateY(-13px) rotate(-45deg);
   transform: translateY(-13px) rotate(-45deg);
+}
+.collapse:not(.show) {
+    display: none;
 }
 }
