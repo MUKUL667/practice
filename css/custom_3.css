@@ -722,7 +722,7 @@ footer
 ======= */
 #footer
 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('/assets/img/footer-bg.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url('/assets/img/footer-bg.jpg');
   background-size: cover;
   background-position: revert;
   padding-top: 50px 0 !important;
@@ -735,23 +735,9 @@ footer
 .social_links
 {
   display: flex;
-  justify-content: flex-start;
+  justify-content:flex-start !important;
 }
-.social_links ul 
-{
-  display: inline-flex;
-  justify-content: flex-start;
-  align-items: center;
 
-
-}
-.social_links ul{
-  padding: 0 !important;
-}
-.social_links ul  li
-{
-margin: 0 10px;
-}
 .footer_content
 {
   display: flex !important;
@@ -759,10 +745,10 @@ margin: 0 10px;
   align-items: flex-start !important;
 
 }
-.common_footer 
+/* .common_footer 
 {
   text-align: center;
-}
+} */
 .common_footer  p
 {
   margin: auto!important;
@@ -789,29 +775,31 @@ margin: 0 10px;
 }
 .footer_icon 
 {
-  background-color: rgba(250, 249, 249, 0.822);
-  position: relative;
-  width: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color:#FFF !important;
+  display: flex ;
+  justify-content: center !important;
+  align-items: center !important;
+    width: 40px;
   height: 40px;
   opacity: 0.4;
   z-index: 99;
+  
   margin: 10x !important;
 }
 .footer_icon i
 {
-position: absolute;
-z-index: 1000000 !important;
-color:#FFF !important;
-opacity: 1;
-top: 7px !important;
-right: 10px;
 font-size: 25px;
 font-weight: 500;
 }
-.footer_icon :hover
+/* .footer_icon:hover
 {
   transition: all 0.5ms ease-in-out;
-color : #f6fa00 !important; 
+background-color : #f6fa00 !important; 
+} */
+.footer_content .social_links a:hover
+{
+  background-color: rgb(235, 212, 11) !important;
 }
 .copy_right
 {
