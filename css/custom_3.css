@@ -206,12 +206,17 @@ header-section
   background-position: center;
   background-size: cover;
 }
+.banner_content_head
+{
+  display: flex !important;
+  align-items: center !important;
+}
 .banner_content
 {
   color: #FFF !important;
   text-align: center;
-  left: 200px;
-  top:55px;
+  left: 380px !important;
+  top:110px !important;
   position: absolute;
   display: flex !important;
   flex-direction: column;
@@ -232,7 +237,6 @@ header-section
 .banner_haeding  h1{
   font-weight: 600 !important;
   font-size: 50px !important;
-  position: relative;
   
 }
 .banner_haeding h1::after
@@ -454,10 +458,10 @@ font-weight: 300 !important;
 {
   display: block;
   background-image: url('/assets/img/alt-services.jpg') ;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100% !important;
+  min-height: 400px !important;
  
 }
 .worst
@@ -582,7 +586,7 @@ background: none !important;
   display: flex;
   flex-direction: column;
   line-height: 30px !important;
-  margin: 60px 0 !important;
+  margin: 10px 0 !important;
 }
 .custom_tab  ul
 {
@@ -643,10 +647,11 @@ testinomial
   width: 450px !important;
   margin: 0 70px !important;
 }
-/* .project_content
+.project_content
 {
-  padding: 50px 0;
-} */
+  margin-top: 25px 0 !important;
+  padding: 0 5px !important;
+}
 .media
 { 
   display: flex;

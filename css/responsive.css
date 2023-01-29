@@ -3,10 +3,10 @@
     html{
         font-size:90%
     }
-    .banner_content
+    /* .banner_content
     {
-        display: none !important;
-    }
+        display: block !important;
+    } */
     .contract_conatent
     {
         padding: 0 !important;
@@ -14,7 +14,7 @@
     .text_feature
     {
     padding: 0 !important;
-    text-align: center !important;
+    text-align: flex-start !important;
     }
     .common_process
     {
@@ -59,4 +59,38 @@ margin-top: 70px !important;
 {
     margin-top:10px !important;
 }
+.feature_content
+{
+    padding: 0 10px !important;
+}
+.squre_box {
+    margin-right: 16px !important;
+    width: auto !important;
+    margin-left: 5px;
+    position: static !important;
+    height: auto !important;
+    padding: 0 !important;
+}
+.feature_1
+{
+    display: flex;
+justify-content: stretch;
+flex-wrap: nowrap  !important;
+
+}
+.banner_content
+{
+    left:0 !important;
+    top:130px  !important;
+}
+.banner_content h1
+{
+font-size:40px !important;
+}
+.banner_haeding h1::after
+{
+    left:130px !important;
+}
+
+
 }
