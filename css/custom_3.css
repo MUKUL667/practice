@@ -240,11 +240,11 @@ header-section
   
 }
 
-.navbar-toggler
+/* .navbar-toggler
 {
   width:20px !important;
   padding-left: 10px !important;
-}
+} */
 
 .banner_haeding h1::after
 {
@@ -484,9 +484,6 @@ font-weight: 300 !important;
 .feature_content
 {
   padding: 0 50px !important;
-}
-.feature_content::after{
-
 }
 .squre_box 
 {

@@ -3,7 +3,7 @@
     html{
         font-size:90%
     }
-    /* .banner_content
+    /* .banner_contenh
     {
         display: block !important;
     } */
@@ -113,13 +113,25 @@ font-size:40px !important;
      position: absolute; 
      padding:1px;
      z-index: 5;   
-     top: 10px;
-    right: 10px;
+     top: 19px;
+    right: 5px;
       display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
+ .navbar-toggler {
+    background-color: rgba(0, 0, 0, 0.397) !important;
+  }
+ .navbar-toggler {
+      color:rgba(0, 0, 0, .1) !important;
+      border-color: rgba(0, 0, 0, .1) !important;
+  }
+  .navbar-toggler {
+    background: rgba(0, 0, 0, .1) !important;
+    border: none !important;
+    padding: 10px 6px;
+    outline: none !important;
+  }
 
 .hamburger .line{
 width: 27px !important;
@@ -155,7 +167,5 @@ cursor: pointer;
   -o-transform: translateY(-13px) rotate(-45deg);
   transform: translateY(-13px) rotate(-45deg);
 }
-.collapse:not(.show) {
-    display: none;
-}
+
 }
