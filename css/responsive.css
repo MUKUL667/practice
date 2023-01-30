@@ -167,5 +167,8 @@ cursor: pointer;
   -o-transform: translateY(-13px) rotate(-45deg);
   transform: translateY(-13px) rotate(-45deg);
 }
-
+.feature_image
+{
+    max-height: 500px !important;
+}
 }
