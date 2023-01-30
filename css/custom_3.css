@@ -454,7 +454,7 @@ feature
 }
 .text_feature
 {
-padding: 25px 55px !important;
+padding: 25px 0px !important;
 }
 .unbold_para 
 {
@@ -463,12 +463,11 @@ font-weight: 300 !important;
 }
 .feature_image
 {
-  display: block;
+
   background-image: url('/assets/img/alt-services.jpg') ;
   background-position: center center;
   background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 400px !important;
+  min-height: 720px !important;
  
 }
 .worst
