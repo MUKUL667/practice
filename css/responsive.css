@@ -169,6 +169,10 @@ cursor: pointer;
 }
 .feature_image
 {
-    max-height: 500px !important;
+    max-height: 500px;
+}
+.nav-item
+{
+    font-weight: 700 !important;
 }
 }
