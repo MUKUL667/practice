@@ -15,41 +15,43 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
 <body>
-    <header class="about_section header_section" >
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand" href="/">UpConstruction<span class="yellow_dot"></span></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="about.html">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="service.html">SERVICES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="project.html">PROJECTS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="contact.html">CONTACT</a>
-              </li>
-            </ul>
-          </div>
+  <header class="header_section about_section">
+        
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="/">UpConstruction<span class="yellow_dot"></span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="hamburger" id="hamburger-1">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
         </div>
-      </nav>
-        <div class="container">
-          <div class="banner_content">
-          <div class="aboutbanner_haeding"><h1>About</h1></div>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="service.html">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="project.html">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
         </div>
-        </div>
-      
-  </header>
+      </div>
+    </nav>
+
+    </div> 
+  
+</header>
   <section>
     <div class="container story_conatainer">
         <div class="row custom_story">
@@ -461,32 +463,21 @@
               <p>Email: info@example.com</p>
             </div>
             <div class="social_links mt-3">
-            <ul>
-              <div class="footer_icon me-2">
-                <li ><i class="fa-brands fa-twitter"></i></li>
-              </div>
-              <div class="footer_icon me-2">
-                <li ><i class="fa-brands fa-facebook"></i></li>
-              </div>
-              <div class="footer_icon me-2">
-                <li ><i class="fa-brands fa-instagram"></i></li>
-              </div>
-              <div class="footer_icon me-2 ">
-                <li ><i class="fa-brands fa-linkedin"></i></li>
-              </div>
-              
-            </ul>
+              <a href="twitter.com" class="footer_icon me-2"><i class="fa-brands fa-twitter"></i></a>
+              <a href="facebook.com" class="footer_icon me-2"><i class="fa-brands fa-facebook"></i></a>
+              <a href="instagram.com" class="footer_icon me-2"><i class="fa-brands fa-instagram"></i></a>
+              <a href="linkedin.com"  class="footer_icon me-2"><i class="fa-brands fa-linkedin"></i></a>
 
             </div>
         </div>
         <div class="tabs_1 common_footer">
           <p>Useful Links</p>
           <ul>
-            <li>Home</li>
-            <li>About us</li>
-            <li>Services</li>
-            <li>Terms of service</li>
-            <li>Privacy policy</li>
+            <a href="/"> <li>Home</li></a>
+            <a href="about.html"> <li>About us</li></a>
+            <a href="service.html"> <li>Services</li></a>
+            <a href="project.html"> <li>Projects</li></a>
+            <a href="contact.html"> <li>Contact</li></a>
           </ul>
 
         </div>
@@ -505,13 +496,13 @@
 
         </div>
         <div class="tabs_3 common_footer">
-          <p>Useful Links</p>
+          <p>Mju Links</p>
           <ul>
-            <li>Home</li>
-            <li>About us</li>
-            <li>Services</li>
-            <li>Terms of service</li>
-            <li>Privacy policy</li>
+            <li>Gome</li>
+            <li>AMut us</li>
+            <li>Servs</li>
+            <li>yerms</li>
+            <li>rivacy </li>
           </ul>
 
         </div>
@@ -570,6 +561,13 @@
           },
       },
   });
+
+  $(document).ready(function() {
+  $(".nav-item a").click(function() {
+    $('.active').removeClass("active");
+    $(this).parent().addClass("active");
+  });
+})
 </script>
 </body>
 </html>

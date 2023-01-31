@@ -887,7 +887,12 @@
             $(this).toggleClass("is-active");
         });
         
-       
+        $(document).ready(function() {
+  $(".nav-item a").click(function() {
+    $('.active').removeClass("active");
+    $(this).parent().addClass("active");
+  });
+})
   
     </script>
   </body>
