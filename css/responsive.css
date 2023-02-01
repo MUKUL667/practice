@@ -169,10 +169,46 @@ cursor: pointer;
 }
 .feature_image
 {
-    max-height: 500px;
+    min-height: 500px;
+}
+.feature_image1
+{
+    min-height: 500px !important;
 }
 .nav-item
 {
     font-weight: 700 !important;
+}
+
+
+
+/* About Page */
+.custom_story .story_image
+{
+width:  100% !important; 
+display: static !important;
+right:0;
+
+}
+
+
+.our_story {
+    background-color: rgba(240, 240, 240, 0.712) !important;
+    padding:20px 15px; 
+    width: 100% !important;
+     padding-right: 0px !important;
+}
+.squre_box1 {
+    margin-right: 16px !important;
+    width: auto !important;
+    margin-left: 5px;
+    position: static !important;
+    height: auto !important;
+    padding: 0 !important;
+}
+.story .about-img
+{
+  position: sticky !important;
+  
 }
 }
