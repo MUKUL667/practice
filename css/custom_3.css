@@ -1029,6 +1029,7 @@ border-radius: 100% !important;
   position: absolute;
   top: 150px!important;
   right:560px !important;
+  color: #FFF  !important;
 }
 .sevice_section_1
 {
@@ -1053,9 +1054,11 @@ border-radius: 100% !important;
   content: "\f00c";
   position: absolute;
   color: #e6a10f !important;
-  right: 289px !important;
+  right: 260px !important;
   padding: 8px !important;
-  padding-left: 20px !important;
+  border: 2px double;
+  border-radius: 50% !important;
+
 }
 .service_feature
 {
@@ -1074,6 +1077,8 @@ border-radius: 100% !important;
 .conatct_content
 {
   display: flex !important;
+  flex-direction: column;
+  flex-wrap: wrap  !important;
 }
 .adress_card
 {
