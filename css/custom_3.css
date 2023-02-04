@@ -46,7 +46,7 @@ h6 {
 
 :root
 {
-  --global-yellow: #f6fa00;
+  --global-yellow: #e6a10f;
 }
 
 /* ############ utlity###################### */
@@ -65,7 +65,7 @@ h6 {
     background-color:var(--global-yellow);
     color: #FFF;
     text-align: center;
-    border-color: #f6fa00;
+    border-color: #e6a10f;
     width: 150px;
     height: 40px;
     outline:var(--global-yellow) !important;
@@ -441,7 +441,7 @@ feature
   width: 50px;
   margin-top:10px;
   height: 3px !important;
-  background-color: rgb(255, 208, 0);
+  background-color: #e6a10f;
 }
 .feture_heading p{
   margin: 20px 0 !important;
@@ -513,7 +513,7 @@ font-weight: 300 !important;
   left: 110px;
 }
 .squre_box1 i::before {
-  color: #ffee00 !important;
+  color: #e6a10f !important;
   box-shadow: 0px 2px 30px rgb(0 0 0 / 14%);
   font-size: 20px;
   content: '\f560' !important;
@@ -525,7 +525,7 @@ font-weight: 300 !important;
   align-items: center;
 }
 .squre_box i::before{
-  color:  #ffee00 !important;
+  color: #e6a10f!important;
  box-shadow:0px 2px 30px rgba(0, 0, 0, 0.144);
   font-size: 20px;
   content: '\f560' !important;
@@ -620,12 +620,10 @@ nav.stroke ul li a:hover:after {
   width: 100%;
 }
 
-nav.fill ul li a {
-  transition: all 2s;
-}
+
 
 .navbar .navbar-nav .nav-link.active{
-  border-bottom:1.5px solid   #e6a10f !important;
+  border-bottom: 1.5px solid   #e6a10f !important;
   color: #e6a10f !important;
 }
   
@@ -645,7 +643,7 @@ nav.fill ul li a {
 .icons::before
 {
   font-family: "FontAwesome";
-  color: #f6fa00 !important ;
+  color: #e6a10f!important ;
  	content: "\f560" !important;
   height: 100px !important;
   width: 100px !important;
@@ -890,7 +888,7 @@ background-color : #f6fa00 !important;
 } */
 .footer_content .social_links a:hover
 {
-  background-color: rgb(235, 212, 11) !important;
+  background-color:#e6a10f !important
 }
 .copy_right
 {
@@ -1000,7 +998,7 @@ background-size: cover;
 }
 .play a
 {
-  color: #f6fa00;
+  color:#e6a10f;
   width: 500PX;
 }
 .play::before
@@ -1037,7 +1035,7 @@ margin-right: 3px !important;
   content: "\f118";
   font-family: "FontAwesome";
   font-size: 60px !important;
-  color: #f6fa00;
+  color: #e6a10f;
 }
 .content
 {
