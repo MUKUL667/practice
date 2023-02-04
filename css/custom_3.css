@@ -465,17 +465,20 @@ font-weight: 300 !important;
 {
 
   background-image: url('/assets/img/alt-services.jpg') ;
-  background-position: center center;
+  background-position: center ;
   background-size: cover;
-  height:100% !important;
+  height: 100% !important ;
+  width: 100%;
  
 }
 .feature_image1
 {
   background-image: url('/assets/img/alt-services-2.jpg') ;
-  background-position: center center;
+  background-position: center ;
   background-size: cover;
-  height:100% !important;
+  width: 100%;
+  height: 100% !important ;
+ 
 }
 .worst
 {
